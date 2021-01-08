@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        *{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+        html{height: 100%;}
+        a,li {text-decoration: none; list-style-type: none;}
+        .TodoApp {
+            width: 100%;
+            background-color:rgb(223, 223, 223);
+            height: 15vh;
+
+        }
+        .TodoApp label {
+            color: white;
+            font-weight: 500px;
+        }
+        .TodoApp input {
+            width: 90%;
+            height: 10vh;
+            padding: 4px;
+            left: 10px;
+            border: none;
+        }
+        .TodoApp button {
+            width: 5%;
+            height: 10vh;
+        }
+        .TodoApp input,button {
+            margin: 15px 0 10px 5px;
+        }
+        .clear {
+            clear: both;
+        }
+        .todolist {
+            border: 1px solid white;
+            background-image: url('./pexels-photo-1118448.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-clip: border-box;
+            background-origin: content-box;
+            height: 100vh;
+                
+        }
+        canvas {
+            width: 500px;
+            height: 350px;
+            background: wheat;
+            margin: 10px;;
+        }
+        .todolist li {
+            border: 1px solid black;
+            padding: 4px;
+            margin: 4px 0 0 0;
+        }
+        img {width:250px; height: 200px; margin:10px;}
+        #AccountInfo {
+            width: 50%;
+            height:fit-content;
+            border:1px solid black;
+            padding:10px;
+            margin: 20px;
+            /*position: absolute*/;
+        }
+
+
+
+</style>
+<body>
+
+
+        <div id="AccountInfo">
+
+        </div>
+
+
+        <script src="data-base.js"></script>
+    </body>
+</html>
